@@ -1,1 +1,3 @@
-# neo-Primefoods is reimagining everyday food with focus on quality,freshness,and convenience.
+# neo-
+
+Primefoods is reimagining everyday food with focus on quality,freshness,and convenience.
