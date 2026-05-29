@@ -1,0 +1,150 @@
+/* PRIMEFOODS - Simple Professional CSS */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #1a3c2e;
+}
+
+/* Navigation */
+nav {
+  background-color: #1a3c2e;
+  padding: 12px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f0c060;
+}
+
+/* Header */
+header {
+  background-color: #2d6a4f;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+header p {
+  color: #d4edda;
+}
+
+/* Page content */
+main, section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* Menu cards */
+.menu-item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item h3 {
+  margin: 0;
+}
+
+.menu-item p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #c9933a;
+  margin: 0;
+}
+
+/* Buttons */
+button, input[type="submit"] {
+  background-color: #2d6a4f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #1a3c2e;
+}
+
+/* Form */
+form {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  max-width: 550px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #1a3c2e;
+}
+
+input[type="text"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #2d6a4f;
+  outline: none;
+}
+
+/* Footer */
+footer {
+  background-color: #1a3c2e;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer img {
+  width: 120px;
+  height: 100px;
+  object-fit: cover;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
